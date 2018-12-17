@@ -88,7 +88,7 @@ int main(int argc, char const *argv[])
     
     for(int i = 0; i < 1000; i++)
     {
-        z.add(i* 17);
+        z.add(17);
     }
     return 0;
 }
