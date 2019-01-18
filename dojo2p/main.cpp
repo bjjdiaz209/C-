@@ -11,7 +11,6 @@ constexpr string_view OPEN = "<";
 constexpr string_view CLOSE = ">";
 constexpr string_view SLASH = "/";
 
-
 class text
 {
 private:
@@ -154,17 +153,17 @@ auto main() -> int
   e2.set_attribute("age", "25");
   e2.set_attribute("id", "12312312");
 
-  // doc.append_child(e1);
-  // doc.append_child(e2);
+  doc.append_child(e1);
+  doc.append_child(e2);
 
   auto c = doc.create_comment("This is a comment");
-  // doc.append_child(c);
+  doc.append_child(c);
 
   auto e3 = doc.create_element("info");
-  // doc.append_child(e3);
+  doc.append_child(e3);
 
   auto text = doc.create_text("This is a text");
-  // e3.append_child(text);
+   e3.append_child(text);
 
   cout << doc << "\n";
 
