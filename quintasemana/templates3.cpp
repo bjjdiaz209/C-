@@ -65,7 +65,7 @@ struct PromanInt
 
 int main(int argc, char const *argv[])
 {
- /*
+ 
     Arraylist<string> r;
     r.add("hello my freiends").add("hola").add("mundo").add("happy").show();
 
@@ -76,7 +76,7 @@ int main(int argc, char const *argv[])
 
     Arraylist<double> q;
     q.add(3.14).add(45.56).add(5.77).add(54.56).add(40.78).show();
-    */
+    
 
 
     Arraylist<PromanInt> z;

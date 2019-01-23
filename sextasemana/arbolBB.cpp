@@ -113,9 +113,9 @@ int main(int argc, char const *argv[])
    
     Tree<string> s;
 
-    s.add("hola");
-    s.add("mundo");
-    s.add("berr");
+    s.add("hola"s);
+    s.add("mundo"s);
+    s.add("berr"s);
     
     
 
