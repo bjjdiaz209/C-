@@ -8,6 +8,7 @@ using namespace std;
 
 template <size_t N>
 
+
 ostream& stars(ostream& os)
 {
     
